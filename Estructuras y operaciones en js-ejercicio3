@@ -1,0 +1,14 @@
+/*Pedir al usuario un número y construir la tabla de multiplicar (mensajes por cada
+renglón) de los valores correspondientes al multiplicar el valor ingresado por el 1
+hasta llegar al 10. Realizar esto empleando la estructura de control FOR*/
+
+let numero = parseInt(prompt("Ingrese un numero: "));
+
+for (let i = 1; i <= 10; i++) {
+    resultado = numero*i;
+    console.log(numero + " x " + i + " = " + resultado);
+}
+/*o
+for (let i = 1; i <= 10; i++) {
+    console.log(numero + " x " + i + " = " + (numero*i));
+} */ 

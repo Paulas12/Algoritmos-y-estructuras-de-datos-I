@@ -1,0 +1,14 @@
+/*Pedir al usuario un número y construir la tabla de multiplicar (mensajes por cada
+renglón) de los valores correspondientes al multiplicar el valor ingresado por el 1
+hasta llegar al 10. Realizar esto empleando la estructura de control WHILE 
+*/ 
+
+let numero = prompt(parseInt("Ingrese un numero: "));
+let i= 0;
+let f=10;
+
+while(i<=f){
+    resultado= numero * i;
+    adicion = i++;
+    console.log(numero + " x " + adicion + " = "+ resultado);
+}
