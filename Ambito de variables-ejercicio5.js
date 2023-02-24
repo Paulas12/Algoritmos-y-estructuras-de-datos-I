@@ -10,5 +10,4 @@ function tablaNumero(nuevo_numero) {
 }
 
 nuevo_numero = tablaNumero(nuevo_numero); //para que retorne el ultimo valor calculado
-tablaNumero(nuevo_numero);
 console.log(nuevo_numero);
