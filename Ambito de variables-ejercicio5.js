@@ -6,7 +6,7 @@ function tablaNumero(nuevo_numero) {
         //console.log(resultado);
         console.log(nuevo_numero * i);
     }
-    return nuevo_numero*10;
+    return 
 }
 
 tablaNumero(nuevo_numero);
